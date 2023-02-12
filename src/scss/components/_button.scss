@@ -1,0 +1,83 @@
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  $button-static: #14cccc;
+  $button-hover: #17e5e5;
+  $button-pressed: #11a6a6;
+
+  $button-oulinded-static: #17e5e5;
+  $button-oulinded-hover: #17e5e5;
+  $button-oulinded-pressed: #11a6a6;
+
+  font-family: $ff-Raleway;
+  font-weight: $fw-bold;
+
+  white-space: nowrap;
+
+  color: $clr-gray-100;
+
+  padding: 13.5px 20px;
+  border: 2px solid transparent;
+  border-radius: $rounded-xs;
+
+  background-color: $button-static;
+
+  transition-property: background-color, border-color, transform, color;
+  transition-duration: 200ms;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+
+  &:active {
+    background-color: $button-pressed;
+  }
+
+  &--icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &--outlined {
+    background-color: transparent;
+    border: 2px solid $button-oulinded-static;
+    color: #05051a; // Не нашел в такой цвет, поэтому просто добавил без переменной
+
+    &:hover {
+      background-color: $button-oulinded-hover;
+      border-color: $button-oulinded-hover;
+      color: $clr-gray-100;
+    }
+    &:active {
+      border-color: $button-oulinded-pressed;
+      background-color: $button-oulinded-pressed;
+      color: $clr-gray-100;
+    }
+  }
+
+  &-tg,
+  &-vk {
+    background-color: $clr-white !important;
+  }
+  &-tg:hover,
+  &-vk:hover {
+    background-color: $clr-gray-200 !important;
+  }
+
+  &-tg:active,
+  &-vk:active {
+    background-color: $clr-gray-300 !important;
+  }
+}

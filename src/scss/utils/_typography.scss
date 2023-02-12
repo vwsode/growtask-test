@@ -1,0 +1,54 @@
+// Headings
+$heading-color: #05051a;
+
+h1,
+h2,
+h3,
+h4 {
+  color: $heading-color;
+  font-weight: $fw-extra-bold;
+  font-family: $ff-Gogh;
+}
+
+// Сделал
+h1 {
+  font-size: clamp(2rem, 0.96rem + 2.12vw, 3.5rem);
+}
+h2 {
+  font-size: clamp(1.75rem, 1.23rem + 1.06vw, 2.5rem);
+}
+h3 {
+  font-size: clamp(1.5rem, 1.327rem + 0.35vw, 1.75rem);
+}
+h4 {
+  font-size: 20px;
+}
+
+// Text / Paragprahs
+
+.t1,
+.t2,
+.t2_b,
+.t3,
+.t3_b {
+  line-height: 1.5;
+  font-family: $ff-Raleway;
+}
+
+.t1 {
+  font-size: 20px;
+}
+.t2 {
+  font-size: 16px;
+}
+.t2_b {
+  font-size: 16px;
+  font-weight: $fw-bold;
+}
+.t3 {
+  font-size: 14px;
+}
+.t3_b {
+  font-size: 14px;
+  font-weight: $fw-bold;
+}

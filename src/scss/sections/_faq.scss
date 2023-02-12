@@ -1,0 +1,42 @@
+.faq {
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__questions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+// Media
+
+@media screen and (max-width: $screen-fullhd-width) {
+  .faq {
+    &__wrapper {
+      padding: 120px 0;
+    }
+  }
+}
+@media screen and (max-width: $screen-hd-width) {
+  .faq {
+    &__wrapper {
+      padding: 120px 0;
+    }
+  }
+}
+@media screen and (max-width: $screen-tablet-width) {
+  .faq {
+    &__wrapper {
+      padding: 40px 0 80px;
+    }
+  }
+}
+@media screen and (max-width: $screen-phone-width) {
+  .faq {
+    &__wrapper {
+      padding: 40px 0 80px;
+    }
+  }
+}

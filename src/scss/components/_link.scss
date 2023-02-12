@@ -1,0 +1,27 @@
+a,
+[class*="__link"] {
+  text-decoration: none;
+
+  $anchor-static: $clr-gray-400;
+  $anchor-hover: $clr-dark;
+  $anchor-press: #daf2f2;
+
+  font-weight: $fw-bold;
+
+  color: $clr-gray-400;
+
+  padding: 12px 20px;
+  border-radius: $rounded-xs;
+
+  background-color: transparent;
+
+  transition-property: background-color, color;
+  transition-duration: 200ms;
+
+  &:hover {
+    color: $anchor-hover;
+  }
+  &:active {
+    background-color: $anchor-press;
+  }
+}

@@ -1,0 +1,136 @@
+.vacancy {
+  padding: 120px 0;
+  background-color: $clr-gray-200;
+
+  &__container {
+  }
+
+  &__wrapper {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  &__info {
+    width: 50%;
+    flex: 1;
+    position: sticky;
+    max-width: 580px;
+    top: 0;
+    left: 0;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__descirption {
+    margin-bottom: 80px;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .numbers-card {
+      max-width: 580px;
+      border-radius: $rounded-xs;
+      background-color: $clr-gray-500;
+      padding: 40px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      &__title {
+        color: $clr-light;
+      }
+      &__text {
+        color: $clr-white;
+      }
+    }
+  }
+
+  &__photos {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .photos-item {
+      max-width: 700px;
+      max-height: 400px;
+
+      min-width: 280px;
+      min-height: 200px;
+      &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: $rounded-xs;
+      }
+    }
+  }
+}
+
+// Media
+@media screen and (max-width: $screen-tablet-width) {
+  .vacancy {
+    padding: 40px 0px 80px;
+    &__descirption {
+      @include t2;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__info {
+      display: flex;
+      width: 100%;
+      position: relative;
+      justify-content: space-between;
+      max-width: 100%;
+      gap: 16px;
+
+      &-text {
+        width: 50%;
+      }
+    }
+
+    &__photos {
+      width: 100%;
+      flex-direction: row;
+      overflow-y: hidden;
+      overflow-x: auto;
+
+      &::-webkit-scrollbar {
+        width: 1px;
+        height: 1px;
+      }
+
+      &::-webkit-scrollbar-button {
+        width: 1px;
+        height: 1px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .vacancy {
+    padding: 40px 0px 80px;
+    &__info {
+      flex-direction: column;
+
+      &-text {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@mixin t1 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: $ff-Raleway;
+}
+@mixin t2 {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: $ff-Raleway;
+}
+@mixin t2_b {
+  font-size: 16px;
+  font-weight: $fw-bold;
+  line-height: 1.5;
+  font-family: $ff-Raleway;
+}
+@mixin t3 {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: $ff-Raleway;
+}
+@mixin t3_b {
+  font-size: 14px;
+  font-weight: $fw-bold;
+  line-height: 1.5;
+  font-family: $ff-Raleway;
+}

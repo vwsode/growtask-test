@@ -1,0 +1,63 @@
+input[type="checkbox"].checkbox {
+  $checkbox-static: $clr-gray-300;
+  $checkbox-hover: $clr-gray-300;
+  $checkbox-static-active: $clr-main;
+  $checkbox-hover-active: $clr-light;
+
+  position: relative;
+
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+
+  border: 2px solid $checkbox-static;
+  border-radius: $rounded-xs;
+
+  width: 20px;
+  height: 20px;
+
+  transition-property: border-color, background-color;
+  transition-duration: 200ms;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    display: block;
+
+    background: url("../../img/check-ico.svg") no-repeat center;
+    background-size: cover;
+
+    opacity: 0;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 16px;
+    height: 16px;
+
+    transition-property: opacity;
+    transition-duration: 200ms;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+  &:checked:hover {
+    border-color: $checkbox-hover-active;
+    background-color: $checkbox-hover-active;
+  }
+
+  &:checked {
+    border-color: $checkbox-static-active;
+    background-color: $checkbox-static-active;
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  background-color: transparent;
+}

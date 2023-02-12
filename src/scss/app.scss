@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+// Libs
+
+// Utils
+@import './utils/variables';
+@import './utils/typography';
+@import './utils/globals';
+
+// Base
+@import './base/reset';
+@import './base/fonts';
+@import './base/mixins';
+
+// Components
+@import './components/container';
+@import './components/logo';
+@import './components/button';
+@import './components/link';
+@import './components/inputs';
+@import './components/accordion';
+@import './components/checkbox';
+
+// Layout
+@import './layout/navigation';
+@import './layout/header';
+@import './layout/footer';
+
+// Sections
+@import './sections/intro';
+@import './sections/vacancy';
+@import './sections/projects';
+@import './sections/presentation';
+@import './sections/faq';
+
+body {
+    font-family: $ff-Raleway, sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    padding-top: $header-height;
+}

@@ -1,0 +1,46 @@
+// Reset styles
+input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.input {
+    $input-static: $clr-gray-300;
+    $input-hover: $clr-light;
+    $input-focus: $clr-main;
+    $input-writing: $clr-main;
+    $input-active: $clr-gray-300;
+    $input-error: #ff6666;
+
+    border: 2px solid $input-static;
+    border-radius: $rounded-xs;
+
+    transition-property: border-color, font-weight;
+    transition-duration: 200ms;
+
+    font-weight: $fw-regular;
+    font-family: $ff-Raleway;
+    font-size: 16px;
+
+    padding: 12px 16px;
+    width: 100%;
+
+    &:hover {
+        border-color: $input-hover;
+    }
+
+    &:focus {
+        // font-weight: $fw-bold;
+        border-color: $input-hover;
+    }
+    &:active {
+        border-color: $input-focus;
+    }
+
+    &.error {
+        border-color: $input-error;
+        color: $input-error;
+        font-weight: $fw-bold;
+    }
+}
