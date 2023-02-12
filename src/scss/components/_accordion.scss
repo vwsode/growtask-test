@@ -1,94 +1,97 @@
+//* Сделал аккордеон без js. Подумал что так будет гораздо лучше
+//* Такой компонент может быть как мульти-аккордеоном так и одиночным (то есть если открывается один вопрос, то закрываются другие)
+
 .accordion {
-  $accordion-hover: $clr-main;
-  $accordion-static: "";
-  $accordion-press: $clr-dark;
+    $accordion-hover: $clr-main;
+    $accordion-static: '';
+    $accordion-press: $clr-dark;
 
-  cursor: pointer;
-
-  position: relative;
-
-  background-color: $clr-gray-200;
-
-  font-family: $ff-Raleway;
-
-  padding: 0px 12px 0px 24px;
-  border-radius: $rounded-xs;
-
-  &:hover {
-    .accordion__header-title {
-      color: $accordion-hover;
-    }
-  }
-  &:active {
-    .accordion__header-title {
-      color: $accordion-press;
-    }
-  }
-
-  .accordion__control-input:checked {
-    & ~ .accordion__content {
-      opacity: 1;
-      height: max-content;
-      max-height: 100vh;
-      padding: 12px 0 24px 0;
-    }
-
-    & ~ .accordion__header > .accordion__header-icon {
-      button svg {
-        transform: translate(-50%, -50%) rotate(90deg);
-      }
-    }
-  }
-
-  &__control-input {
     cursor: pointer;
-    position: absolute;
-    appearance: 0;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    visibility: visible;
-  }
 
-  &__header {
-    padding: 24px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    position: relative;
 
-    &-title {
-      user-select: none;
+    background-color: $clr-gray-200;
 
-      transition-property: color;
-      transition-duration: 200ms;
+    font-family: $ff-Raleway;
 
-      font-size: 16px;
-      font-weight: $fw-bold;
-    }
-    &-icon {
-      button {
-        position: relative;
+    padding: 0px 12px 0px 24px;
+    border-radius: $rounded-xs;
 
-        svg {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transition: transform 200ms;
-          transform: translate(-50%, -50%) rotate(45deg);
+    &:hover {
+        .accordion__header-title {
+            color: $accordion-hover;
         }
-      }
     }
-  }
+    &:active {
+        .accordion__header-title {
+            color: $accordion-press;
+        }
+    }
 
-  &__content {
-    font-size: 16px;
-    font-weight: $fw-regular;
-    height: 0;
-    opacity: 0;
-    transition: opacity 100ms, padding 200ms;
-  }
+    .accordion__control-input:checked {
+        & ~ .accordion__content {
+            opacity: 1;
+            height: max-content;
+            max-height: 100vh;
+            padding: 12px 0 24px 0;
+        }
+
+        & ~ .accordion__header > .accordion__header-icon {
+            button svg {
+                transform: translate(-50%, -50%) rotate(90deg);
+            }
+        }
+    }
+
+    &__control-input {
+        cursor: pointer;
+        position: absolute;
+        appearance: 0;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        visibility: visible;
+    }
+
+    &__header {
+        padding: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        &-title {
+            user-select: none;
+
+            transition-property: color;
+            transition-duration: 200ms;
+
+            font-size: 16px;
+            font-weight: $fw-bold;
+        }
+        &-icon {
+            button {
+                position: relative;
+
+                svg {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transition: transform 200ms;
+                    transform: translate(-50%, -50%) rotate(45deg);
+                }
+            }
+        }
+    }
+
+    &__content {
+        font-size: 16px;
+        font-weight: $fw-regular;
+        height: 0;
+        opacity: 0;
+        transition: opacity 100ms, padding 200ms;
+    }
 }

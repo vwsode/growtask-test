@@ -59,6 +59,8 @@
         } else if (!validateEmail(emailValue)) {
             setErorr(email, 'Это не похоже не почту');
             isFormSuccess = false;
+        } else {
+            setSuccess(email);
         }
 
         return isFormSuccess;

@@ -1,635 +1,634 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Growtask</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__container container">
-        <div class="header__wrapper">
-          <div class="header__left">
-            <div class="header__logo logo">
-              <div class="logo__img"></div>
-            </div>
-          </div>
-          <div class="header__right">
-            <nav class="header__nav nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#" class="nav__link">Текст и картинки</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#" class="nav__link">Пример слайдера</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#" class="nav__link">Кнопки и картинки</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#" class="nav__link">Вопрос — ответ</a>
-                </li>
-              </ul>
-            </nav>
-            <button class="header__btn btn btn-to-form">К форме</button>
-          </div>
-          <button class="header__burger btn btn--icon">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3 12H21M3 18H21M3 6H21"
-                stroke="#ffffff"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-          <div class="header__dropdown-menu dropdown-menu hide">
-            <div class="dropdown-menu__wrapper">
-              <nav class="dropdown-menu__nav nav">
-                <ul class="nav__list">
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">Текст и картинки</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">Пример слайдера</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">Кнопки и картинки</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="#" class="nav__link">Вопрос — ответ</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <button class="btn btn-to-form">К форме</button>
-            <div class="dropdown-menu__socials">
-              <button class="btn btn--icon btn-vk">
-                <svg
-                  width="28"
-                  height="18"
-                  viewBox="0 0 28 18"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M15.1798 17.3996C6.15993 17.3996 1.01515 11.0933 0.800781 0.599609H5.31896C5.46736 8.30171 8.79828 11.5642 11.4366 12.2368V0.599609H15.691V7.24225C18.2963 6.95637 21.0336 3.92934 21.9571 0.599609H26.2114C25.8634 2.3265 25.1698 3.96159 24.1739 5.40261C23.178 6.84363 21.9013 8.05957 20.4235 8.97438C22.073 9.81028 23.53 10.9934 24.6982 12.4457C25.8664 13.898 26.7194 15.5864 27.2008 17.3996H22.5177C22.0856 15.8247 21.2073 14.415 19.9928 13.347C18.7784 12.279 17.282 11.6003 15.691 11.396V17.3996H15.1798Z"
-                    fill="#0077FF"
-                  />
-                </svg>
-              </button>
-              <button class="btn btn--icon btn-tg">
-                <svg
-                  width="24"
-                  height="21"
-                  viewBox="0 0 24 21"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.6008 1.12306L19.9943 19.9511C19.9943 19.9511 19.4897 21.2565 18.1035 20.6305L9.78227 14.0235L9.74368 14.004C10.8677 12.9589 19.5837 4.84359 19.9646 4.47574C20.5543 3.90603 20.1882 3.56687 19.5035 3.99722L6.62893 12.464L1.66195 10.7333C1.66195 10.7333 0.88029 10.4454 0.805093 9.81932C0.728906 9.19223 1.68767 8.85307 1.68767 8.85307L21.9365 0.627128C21.9365 0.627128 23.6008 -0.130093 23.6008 1.12306Z"
-                    fill="#27A6E5"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main class="main">
-      <section class="intro">
-        <div class="intro__container container">
-          <div class="intro__wrapper">
-            <div class="intro__banner">
-              <h1 class="intro__title">
-                Покажи нам чудеса
-                <span>своей&nbsp;вёрстки</span>
-              </h1>
-              <p class="intro__description t1">
-                Это текстовое задание, которое нужно просто и грамотно
-                сверстать. Мы уверены, что у тебя всё получится.
-              </p>
-              <div class="intro__scroll">
-                <h4>Покажи скролл <span>до формы</span></h4>
-                <button class="intro__btn btn btn-to-form">К Форме</button>
-              </div>
-            </div>
-            <div class="intro__images">
-              <div class="intro__images-col">
-                <div class="intro__images-item">
-                  <img src="./img/intro/intro-1.jpg" alt="Intro image 1" />
-                </div>
-                <div class="intro__images-item">
-                  <img src="./img/intro/intro-2.jpg" alt="Intro image 2" />
-                </div>
-              </div>
-              <div class="intro__images-col">
-                <div class="intro__images-item">
-                  <img src="./img/intro/intro-3.jpg" alt="Intro image 2" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="vacancy">
-        <div class="vacancy__container container">
-          <div class="vacancy__wrapper">
-            <div class="vacancy__info">
-              <div class="vacancy__info-text">
-                <h2 class="vacancy__title">Про вакансию</h2>
-                <p class="vacancy__descirption t1">
-                  Мы ищем аккуратного верстальщика, который хочет учиться и
-                  развиваться. С этим мы, конечно же, поможем.
-                  <br />
-                  <br />
-                  Напомним про условия:
-                </p>
-              </div>
-              <div class="vacancy__numbers">
-                <div class="vacancy__numbers-card numbers-card">
-                  <h1 class="numbers-card__title">20000</h1>
-                  <p class="numbers-card__text t2">
-                    Твой оклад на время стажировки (Возможны премии)
-                  </p>
-                </div>
-                <div class="vacancy__numbers-card numbers-card">
-                  <h1 class="numbers-card__title">5/2</h1>
-                  <p class="numbers-card__text t2">Рабочий график</p>
-                </div>
-                <div class="vacancy__numbers-card numbers-card">
-                  <h1 class="numbers-card__title">8 ч</h1>
-                  <p class="numbers-card__text t2">Рабочий день</p>
-                </div>
-              </div>
-            </div>
-            <div class="vacancy__photos">
-              <div class="vacancy__photos-item photos-item">
-                <img
-                  class="photos-item__img"
-                  src="./img/vacancy/vacancy-1.jpg"
-                  alt="Image vacancy-1"
-                />
-              </div>
-              <div class="vacancy__photos-item photos-item">
-                <img
-                  class="photos-item__img"
-                  src="./img/vacancy/vacancy-2.jpg"
-                  alt="Image vacancy-2"
-                />
-              </div>
-              <div class="vacancy__photos-item photos-item">
-                <img
-                  class="photos-item__img"
-                  src="./img/vacancy/vacancy-3.jpg"
-                  alt="Image vacancy-3"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="projects">
-        <div class="projects__container container">
-          <div class="projects__wrapper">
-            <div class="projects__header">
-              <h2 class="projects__title">Сверстай слайдер</h2>
-              <div class="projects__controls">
-                <button
-                  class="projects__slider-btn--prev projects__slider-btn btn--icon btn"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10 18L16 12L10 6"
-                      stroke="#05051A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-                <button
-                  class="projects__slider-btn--next projects__slider-btn btn--icon btn"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10 18L16 12L10 6"
-                      stroke="#05051A"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="projects__slider slider">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-1.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Северная корона</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-2.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Moscow barbering school</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-3.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Rh store</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-4.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Poolspecial</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-5.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Rh prod</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-1.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Северная корона</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-2.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Moscow barbering school</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-3.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Rh store</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slider__slide">
-                  <img
-                    class="slider__slide-img"
-                    src="./img/prjects/projects-4.jpg"
-                    alt="slider-slide-img"
-                  />
-                  <p class="slider__slide-title">Poolspecial</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="presentation">
-        <div class="presentation__container container">
-          <div class="presentation__wrapper">
-            <h2 class="presentation__title hidden">Посмотри на картинки</h2>
-            <div class="presentation__main-img">
-              <img
-                id="presentation-main-img"
-                src="./img/presentation/presentation-1.jpg"
-                alt="Big image"
-              />
-            </div>
-            <div class="presentation__images images">
-              <label class="images__item">
-                <input
-                  class="images__item-control"
-                  type="radio"
-                  name="image"
-                  id=""
-                />
-                <img
-                  src="./img/presentation/presentation-1.jpg"
-                  alt="presentation-1"
-                />
-                <span class="images__item-title t1">Картинка 1</span>
-              </label>
-              <label class="images__item">
-                <input
-                  class="images__item-control"
-                  type="radio"
-                  name="image"
-                  id=""
-                />
-                <img
-                  src="./img/presentation/presentation-2.jpg"
-                  alt="presentation-2"
-                />
-                <span class="images__item-title t1">Картинка 2</span>
-              </label>
-              <label class="images__item">
-                <input
-                  class="images__item-control"
-                  type="radio"
-                  name="image"
-                  id=""
-                />
-                <img
-                  src="./img/presentation/presentation-3.jpg"
-                  alt="presentation-3"
-                />
-                <span class="images__item-title t1">Картинка 3</span>
-              </label>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="faq">
-        <div class="faq__container container">
-          <div class="faq__wrapper">
-            <h2 class="faq__title">Ответы на вопросы</h2>
-            <div class="faq__questions">
-              <div class="faq__accordion accordion">
-                <input class="accordion__control-input" type="checkbox" />
-                <div class="accordion__header">
-                  <div class="accordion__header-title">
-                    У вас много проектов?
-                  </div>
-                  <div class="accordion__header-icon">
-                    <button class="btn btn--icon">
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
-                          fill="white"
-                        />
-                      </svg>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="../static/favicon.svg" />
+        <title>Growtask</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__wrapper">
+                    <div class="header__left">
+                        <div class="header__logo logo">
+                            <div class="logo__img"></div>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <nav class="header__nav nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Текст и картинки</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Пример слайдера</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Кнопки и картинки</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#" class="nav__link">Вопрос — ответ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <button class="header__btn btn btn-to-form">К форме</button>
+                    </div>
+                    <button class="header__burger btn btn--icon">
+                        <svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M3 12H21M3 18H21M3 6H21"
+                                stroke="#ffffff"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
                     </button>
-                  </div>
+                    <div class="header__dropdown-menu dropdown-menu hide">
+                        <div class="dropdown-menu__wrapper">
+                            <nav class="dropdown-menu__nav nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">Текст и картинки</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">Пример слайдера</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">Кнопки и картинки</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#" class="nav__link">Вопрос — ответ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <button class="btn btn-to-form">К форме</button>
+                        <div class="dropdown-menu__socials">
+                            <button class="btn btn--icon btn-vk">
+                                <svg
+                                    width="28"
+                                    height="18"
+                                    viewBox="0 0 28 18"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M15.1798 17.3996C6.15993 17.3996 1.01515 11.0933 0.800781 0.599609H5.31896C5.46736 8.30171 8.79828 11.5642 11.4366 12.2368V0.599609H15.691V7.24225C18.2963 6.95637 21.0336 3.92934 21.9571 0.599609H26.2114C25.8634 2.3265 25.1698 3.96159 24.1739 5.40261C23.178 6.84363 21.9013 8.05957 20.4235 8.97438C22.073 9.81028 23.53 10.9934 24.6982 12.4457C25.8664 13.898 26.7194 15.5864 27.2008 17.3996H22.5177C22.0856 15.8247 21.2073 14.415 19.9928 13.347C18.7784 12.279 17.282 11.6003 15.691 11.396V17.3996H15.1798Z"
+                                        fill="#0077FF"
+                                    />
+                                </svg>
+                            </button>
+                            <button class="btn btn--icon btn-tg">
+                                <svg
+                                    width="24"
+                                    height="21"
+                                    viewBox="0 0 24 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M23.6008 1.12306L19.9943 19.9511C19.9943 19.9511 19.4897 21.2565 18.1035 20.6305L9.78227 14.0235L9.74368 14.004C10.8677 12.9589 19.5837 4.84359 19.9646 4.47574C20.5543 3.90603 20.1882 3.56687 19.5035 3.99722L6.62893 12.464L1.66195 10.7333C1.66195 10.7333 0.88029 10.4454 0.805093 9.81932C0.728906 9.19223 1.68767 8.85307 1.68767 8.85307L21.9365 0.627128C21.9365 0.627128 23.6008 -0.130093 23.6008 1.12306Z"
+                                        fill="#27A6E5"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="accordion__content">
-                  Достаточно чтобы работать и получать удовольствие от работы)
-                </div>
-              </div>
-              <div class="faq__accordion accordion">
-                <input class="accordion__control-input" type="checkbox" />
-                <div class="accordion__header">
-                  <div class="accordion__header-title">
-                    Есть ли карьерный рост?
-                  </div>
-                  <div class="accordion__header-icon">
-                    <button class="btn btn--icon">
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                <div class="accordion__content">
-                  Карьерный рост есть, но все завист только от тебя. Никто
-                  специально тянуть не будет
-                </div>
-              </div>
-              <div class="faq__accordion accordion">
-                <input class="accordion__control-input" type="checkbox" />
-                <div class="accordion__header">
-                  <div class="accordion__header-title">У вас большой штат?</div>
-                  <div class="accordion__header-icon">
-                    <button class="btn btn--icon">
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                <div class="accordion__content">Штат небольшой</div>
-              </div>
-              <div class="faq__accordion accordion">
-                <input class="accordion__control-input" type="checkbox" />
-                <div class="accordion__header">
-                  <div class="accordion__header-title">
-                    Какие цели у вашей студии?
-                  </div>
-                  <div class="accordion__header-icon">
-                    <button class="btn btn--icon">
-                      <svg
-                        width="14"
-                        height="14"
-                        viewBox="0 0 14 14"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                <div class="accordion__content">
-                  Развивать свои продукты в среднем ценовом сегменте. Занять не
-                  занятую нишу отличных сайтов по низкой цене.
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__container container">
-        <div class="footer__wrapper">
-          <div class="footer__bg">
-            <div class="footer__circle" id="footer-circle-1"></div>
-            <div class="footer__circle" id="footer-circle-2"></div>
-            <div class="footer__circle" id="footer-circle-3"></div>
-            <div class="footer__circle" id="footer-circle-4"></div>
-          </div>
-          <div class="footer__left">
-            <h2 class="footer__title">Форма ОС</h2>
-            <p class="footer__description t2">
-              Сверстай форму обратной связи. Будет круто, если заявку будут
-              приходить сюда: a@growtask.ru
-            </p>
-            <div class="footer__other">
-              <h4>Не забудь вставить соц.сети</h4>
-              <div class="footer__socials">
-                <button class="btn btn--icon btn-vk">
-                  <a href="https://vk.com/growtask">
-                    <svg
-                      width="28"
-                      height="18"
-                      viewBox="0 0 28 18"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M15.1798 17.3996C6.15993 17.3996 1.01515 11.0933 0.800781 0.599609H5.31896C5.46736 8.30171 8.79828 11.5642 11.4366 12.2368V0.599609H15.691V7.24225C18.2963 6.95637 21.0336 3.92934 21.9571 0.599609H26.2114C25.8634 2.3265 25.1698 3.96159 24.1739 5.40261C23.178 6.84363 21.9013 8.05957 20.4235 8.97438C22.073 9.81028 23.53 10.9934 24.6982 12.4457C25.8664 13.898 26.7194 15.5864 27.2008 17.3996H22.5177C22.0856 15.8247 21.2073 14.415 19.9928 13.347C18.7784 12.279 17.282 11.6003 15.691 11.396V17.3996H15.1798Z"
-                        fill="#0077FF"
-                      />
-                    </svg>
-                  </a>
-                </button>
-                <button class="btn btn--icon btn-tg">
-                  <a href="https://t.me/growtask ">
-                    <svg
-                      width="24"
-                      height="21"
-                      viewBox="0 0 24 21"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M23.6008 1.12306L19.9943 19.9511C19.9943 19.9511 19.4897 21.2565 18.1035 20.6305L9.78227 14.0235L9.74368 14.004C10.8677 12.9589 19.5837 4.84359 19.9646 4.47574C20.5543 3.90603 20.1882 3.56687 19.5035 3.99722L6.62893 12.464L1.66195 10.7333C1.66195 10.7333 0.88029 10.4454 0.805093 9.81932C0.728906 9.19223 1.68767 8.85307 1.68767 8.85307L21.9365 0.627128C21.9365 0.627128 23.6008 -0.130093 23.6008 1.12306Z"
-                        fill="#27A6E5"
-                      />
-                    </svg>
-                  </a>
-                </button>
-              </div>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <div class="intro__container container">
+                    <div class="intro__wrapper">
+                        <div class="intro__banner">
+                            <h1 class="intro__title">
+                                Покажи нам чудеса
+                                <span>своей&nbsp;вёрстки</span>
+                            </h1>
+                            <p class="intro__description t1">
+                                Это текстовое задание, которое нужно просто и грамотно сверстать. Мы
+                                уверены, что у тебя всё получится.
+                            </p>
+                            <div class="intro__scroll">
+                                <h4>Покажи скролл <span>до формы</span></h4>
+                                <button class="intro__btn btn btn-to-form">К Форме</button>
+                            </div>
+                        </div>
+                        <div class="intro__images">
+                            <div class="intro__images-col">
+                                <div class="intro__images-item">
+                                    <img src="./img/intro/intro-1.jpg" alt="Intro image 1" />
+                                </div>
+                                <div class="intro__images-item">
+                                    <img src="./img/intro/intro-2.jpg" alt="Intro image 2" />
+                                </div>
+                            </div>
+                            <div class="intro__images-col">
+                                <div class="intro__images-item">
+                                    <img src="./img/intro/intro-3.jpg" alt="Intro image 2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="vacancy">
+                <div class="vacancy__container container">
+                    <div class="vacancy__wrapper">
+                        <div class="vacancy__info">
+                            <div class="vacancy__info-text">
+                                <h2 class="vacancy__title">Про вакансию</h2>
+                                <p class="vacancy__descirption t1">
+                                    Мы ищем аккуратного верстальщика, который хочет учиться и
+                                    развиваться. С этим мы, конечно же, поможем.
+                                    <br />
+                                    <br />
+                                    Напомним про условия:
+                                </p>
+                            </div>
+                            <div class="vacancy__numbers">
+                                <div class="vacancy__numbers-card numbers-card">
+                                    <h1 class="numbers-card__title">20000</h1>
+                                    <p class="numbers-card__text t2">
+                                        Твой оклад на время стажировки (Возможны премии)
+                                    </p>
+                                </div>
+                                <div class="vacancy__numbers-card numbers-card">
+                                    <h1 class="numbers-card__title">5/2</h1>
+                                    <p class="numbers-card__text t2">Рабочий график</p>
+                                </div>
+                                <div class="vacancy__numbers-card numbers-card">
+                                    <h1 class="numbers-card__title">8 ч</h1>
+                                    <p class="numbers-card__text t2">Рабочий день</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vacancy__photos">
+                            <div class="vacancy__photos-item photos-item">
+                                <img
+                                    class="photos-item__img"
+                                    src="./img/vacancy/vacancy-1.jpg"
+                                    alt="Image vacancy-1"
+                                />
+                            </div>
+                            <div class="vacancy__photos-item photos-item">
+                                <img
+                                    class="photos-item__img"
+                                    src="./img/vacancy/vacancy-2.jpg"
+                                    alt="Image vacancy-2"
+                                />
+                            </div>
+                            <div class="vacancy__photos-item photos-item">
+                                <img
+                                    class="photos-item__img"
+                                    src="./img/vacancy/vacancy-3.jpg"
+                                    alt="Image vacancy-3"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="projects">
+                <div class="projects__container container">
+                    <div class="projects__wrapper">
+                        <div class="projects__header">
+                            <h2 class="projects__title">Сверстай слайдер</h2>
+                            <div class="projects__controls">
+                                <button
+                                    class="projects__slider-btn--prev projects__slider-btn btn--icon btn"
+                                >
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10 18L16 12L10 6"
+                                            stroke="#05051A"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </button>
+                                <button
+                                    class="projects__slider-btn--next projects__slider-btn btn--icon btn"
+                                >
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10 18L16 12L10 6"
+                                            stroke="#05051A"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects__slider slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-1.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Северная корона</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-2.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Moscow barbering school</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-3.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Rh store</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-4.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Poolspecial</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-5.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Rh prod</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-1.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Северная корона</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-2.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Moscow barbering school</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-3.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Rh store</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__slide">
+                                    <img
+                                        class="slider__slide-img"
+                                        src="./img/prjects/projects-4.jpg"
+                                        alt="slider-slide-img"
+                                    />
+                                    <p class="slider__slide-title">Poolspecial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="presentation">
+                <div class="presentation__container container">
+                    <div class="presentation__wrapper">
+                        <h2 class="presentation__title hidden">Посмотри на картинки</h2>
+                        <div class="presentation__main-img">
+                            <img
+                                id="presentation-main-img"
+                                src="./img/presentation/presentation-1.jpg"
+                                alt="Big image"
+                            />
+                        </div>
+                        <div class="presentation__images images">
+                            <label class="images__item">
+                                <input
+                                    class="images__item-control"
+                                    type="radio"
+                                    name="image"
+                                    id=""
+                                />
+                                <img
+                                    src="./img/presentation/presentation-1.jpg"
+                                    alt="presentation-1"
+                                />
+                                <span class="images__item-title t1">Картинка 1</span>
+                            </label>
+                            <label class="images__item">
+                                <input
+                                    class="images__item-control"
+                                    type="radio"
+                                    name="image"
+                                    id=""
+                                />
+                                <img
+                                    src="./img/presentation/presentation-2.jpg"
+                                    alt="presentation-2"
+                                />
+                                <span class="images__item-title t1">Картинка 2</span>
+                            </label>
+                            <label class="images__item">
+                                <input
+                                    class="images__item-control"
+                                    type="radio"
+                                    name="image"
+                                    id=""
+                                />
+                                <img
+                                    src="./img/presentation/presentation-3.jpg"
+                                    alt="presentation-3"
+                                />
+                                <span class="images__item-title t1">Картинка 3</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <div class="faq__container container">
+                    <div class="faq__wrapper">
+                        <h2 class="faq__title">Ответы на вопросы</h2>
+                        <div class="faq__questions">
+                            <div class="faq__accordion accordion">
+                                <input class="accordion__control-input" type="checkbox" />
+                                <div class="accordion__header">
+                                    <div class="accordion__header-title">У вас много проектов?</div>
+                                    <div class="accordion__header-icon">
+                                        <button class="btn btn--icon">
+                                            <svg
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 14 14"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="accordion__content">
+                                    Достаточно чтобы работать и получать удовольствие от работы)
+                                </div>
+                            </div>
+                            <div class="faq__accordion accordion">
+                                <input class="accordion__control-input" type="checkbox" />
+                                <div class="accordion__header">
+                                    <div class="accordion__header-title">
+                                        Есть ли карьерный рост?
+                                    </div>
+                                    <div class="accordion__header-icon">
+                                        <button class="btn btn--icon">
+                                            <svg
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 14 14"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="accordion__content">
+                                    Карьерный рост есть, но все завист только от тебя. Никто
+                                    специально тянуть не будет
+                                </div>
+                            </div>
+                            <div class="faq__accordion accordion">
+                                <input class="accordion__control-input" type="checkbox" />
+                                <div class="accordion__header">
+                                    <div class="accordion__header-title">У вас большой штат?</div>
+                                    <div class="accordion__header-icon">
+                                        <button class="btn btn--icon">
+                                            <svg
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 14 14"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="accordion__content">Штат небольшой</div>
+                            </div>
+                            <div class="faq__accordion accordion">
+                                <input class="accordion__control-input" type="checkbox" />
+                                <div class="accordion__header">
+                                    <div class="accordion__header-title">
+                                        Какие цели у вашей студии?
+                                    </div>
+                                    <div class="accordion__header-icon">
+                                        <button class="btn btn--icon">
+                                            <svg
+                                                width="14"
+                                                height="14"
+                                                viewBox="0 0 14 14"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M0.292893 13.7071C-0.0976311 13.3166 -0.0976311 12.6834 0.292893 12.2929L5.58579 7L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683417 0.292893 0.292893C0.683417 -0.0976315 1.31658 -0.0976315 1.70711 0.292893L7 5.58579L12.2929 0.292893C12.6834 -0.0976315 13.3166 -0.0976315 13.7071 0.292893C14.0976 0.683417 14.0976 1.31658 13.7071 1.70711L8.41421 7L13.7071 12.2929C14.0976 12.6834 14.0976 13.3166 13.7071 13.7071C13.3166 14.0976 12.6834 14.0976 12.2929 13.7071L7 8.41421L1.70711 13.7071C1.31658 14.0976 0.683417 14.0976 0.292893 13.7071Z"
+                                                    fill="white"
+                                                />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="accordion__content">
+                                    Развивать свои продукты в среднем ценовом сегменте. Занять не
+                                    занятую нишу отличных сайтов по низкой цене.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__wrapper">
+                    <div class="footer__bg">
+                        <div class="footer__circle" id="footer-circle-1"></div>
+                        <div class="footer__circle" id="footer-circle-2"></div>
+                        <div class="footer__circle" id="footer-circle-3"></div>
+                        <div class="footer__circle" id="footer-circle-4"></div>
+                    </div>
+                    <div class="footer__left">
+                        <h2 class="footer__title">Форма ОС</h2>
+                        <p class="footer__description t2">
+                            Сверстай форму обратной связи. Будет круто, если заявку будут приходить
+                            сюда: a@growtask.ru
+                        </p>
+                        <div class="footer__other">
+                            <h4>Не забудь вставить соц.сети</h4>
+                            <div class="footer__socials">
+                                <button class="btn btn--icon btn-vk">
+                                    <a href="https://vk.com/growtask">
+                                        <svg
+                                            width="28"
+                                            height="18"
+                                            viewBox="0 0 28 18"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M15.1798 17.3996C6.15993 17.3996 1.01515 11.0933 0.800781 0.599609H5.31896C5.46736 8.30171 8.79828 11.5642 11.4366 12.2368V0.599609H15.691V7.24225C18.2963 6.95637 21.0336 3.92934 21.9571 0.599609H26.2114C25.8634 2.3265 25.1698 3.96159 24.1739 5.40261C23.178 6.84363 21.9013 8.05957 20.4235 8.97438C22.073 9.81028 23.53 10.9934 24.6982 12.4457C25.8664 13.898 26.7194 15.5864 27.2008 17.3996H22.5177C22.0856 15.8247 21.2073 14.415 19.9928 13.347C18.7784 12.279 17.282 11.6003 15.691 11.396V17.3996H15.1798Z"
+                                                fill="#0077FF"
+                                            />
+                                        </svg>
+                                    </a>
+                                </button>
+                                <button class="btn btn--icon btn-tg">
+                                    <a href="https://t.me/growtask ">
+                                        <svg
+                                            width="24"
+                                            height="21"
+                                            viewBox="0 0 24 21"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M23.6008 1.12306L19.9943 19.9511C19.9943 19.9511 19.4897 21.2565 18.1035 20.6305L9.78227 14.0235L9.74368 14.004C10.8677 12.9589 19.5837 4.84359 19.9646 4.47574C20.5543 3.90603 20.1882 3.56687 19.5035 3.99722L6.62893 12.464L1.66195 10.7333C1.66195 10.7333 0.88029 10.4454 0.805093 9.81932C0.728906 9.19223 1.68767 8.85307 1.68767 8.85307L21.9365 0.627128C21.9365 0.627128 23.6008 -0.130093 23.6008 1.12306Z"
+                                                fill="#27A6E5"
+                                            />
+                                        </svg>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="footer__form form" method="post">
+                        <div class="form__wrapper">
+                            <div class="form__fields">
+                                <label class="field">
+                                    <input
+                                        class="field__input input"
+                                        id="question"
+                                        type="text"
+                                        placeholder="Напиши вопрос*"
+                                    />
+                                    <small class="field__error"></small>
+                                </label>
+                                <label class="field">
+                                    <input
+                                        class="field__input input"
+                                        id="name"
+                                        type="text"
+                                        placeholder="Твоё имя*"
+                                    />
+                                    <small class="field__error"></small>
+                                </label>
+                                <label class="field">
+                                    <input
+                                        class="field__input input"
+                                        id="link"
+                                        type="text"
+                                        placeholder="Соц.сеть или мессенджер*"
+                                    />
+                                    <small class="field__error"></small>
+                                </label>
+                                <label class="field">
+                                    <input
+                                        class="field__input input"
+                                        id="email"
+                                        type="text"
+                                        placeholder="Телефон или почта*"
+                                    />
+                                    <small class="field__error"></small>
+                                </label>
+                            </div>
+                            <div class="form__bid">
+                                <button class="btn">Отправить заявку</button>
+                                <label class="field field__checkbox">
+                                    <input
+                                        class="checkbox"
+                                        type="checkbox"
+                                        required
+                                        name=""
+                                        id="policy"
+                                    />
+                                    <span class="t3">Согласие с политикой</span>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-          </div>
-          <form class="footer__form form" method="post">
-            <div class="form__wrapper">
-              <div class="form__fields">
-                <label class="field">
-                  <input
-                    class="field__input input"
-                    id="question"
-                    type="text"
-                    placeholder="Напиши вопрос*"
-                  />
-                  <small class="field__error"></small>
-                </label>
-                <label class="field">
-                  <input
-                    class="field__input input"
-                    id="name"
-                    type="text"
-                    placeholder="Твоё имя*"
-                  />
-                  <small class="field__error"></small>
-                </label>
-                <label class="field">
-                  <input
-                    class="field__input input"
-                    id="link"
-                    type="text"
-                    placeholder="Соц.сеть или мессенджер*"
-                  />
-                  <small class="field__error"></small>
-                </label>
-                <label class="field">
-                  <input
-                    class="field__input input"
-                    id="email"
-                    type="text"
-                    placeholder="Телефон или почта*"
-                  />
-                  <small class="field__error"></small>
-                </label>
-              </div>
-              <div class="form__bid">
-                <button class="btn">Отправить заявку</button>
-                <label class="field field__checkbox">
-                  <input
-                    class="checkbox"
-                    type="checkbox"
-                    required
-                    name=""
-                    id="policy"
-                  />
-                  <span class="t3">Согласие с политикой</span>
-                </label>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </footer>
-  </body>
+        </footer>
+    </body>
 </html>
